@@ -1,0 +1,1 @@
+// ivairus nustatymai, kuriuos galima kaitalioti
