@@ -12,3 +12,6 @@
 @import '../components/footer.css';
 
 /* CUSTOM STYLE BELOW THIS COMMENT LINE */
+body {
+  background-color: snow;
+}
