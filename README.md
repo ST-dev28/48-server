@@ -3,9 +3,10 @@
 ![Gluten Status](https://img.shields.io/badge/Gluten-Free-green.svg)
 ![Eco Status](https://img.shields.io/badge/ECO-Friendly-green.svg)
 
-# Coming soon
+# Server
 
 This project is for educational porpuses only.
+https://st-dev28.github.io/48-server/
 
 ## Project features
 
