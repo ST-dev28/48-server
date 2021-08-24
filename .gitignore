@@ -1,1 +1,6 @@
 desktop.ini
+.data
+# *.css    //jei norime nestebeti jokiu css failu => *.failo pavadinimas
+# demo/*.js // jei norime nesteveti demo golderyje esanciu js failu
+# demo*  // bet kurie failai, esantys demo folderyje, nebus stebimi
+# */*.css  // ignoruos visus css failus, esancius folderiuose
