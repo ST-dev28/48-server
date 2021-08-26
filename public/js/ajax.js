@@ -1,3 +1,5 @@
+// ajax - "pasto karvelis :)" - funkcija, kuri perduota informacija is narsykles i serveli
+
 function ajax(request, callback) {   //callback - formatas jau numatytas
     //console.log(request);
     const { method, headers, endpoint, data } = request;

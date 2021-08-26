@@ -1,6 +1,6 @@
 import { ajax } from "./ajax.js";
 
-const formMessageDOM = document.querySelector('.form-messages');
+const formMessageDOM = document.querySelector('.form-messages');   // DOM => konkretus HTML failas(elementas)
 const pFormMessageDOM = formMessageDOM.querySelector('.message');
 const closeMessageDOM = formMessageDOM.querySelector('.close');
 const formDOM = document.querySelector('.form');
@@ -23,7 +23,7 @@ function closeMessage() {
     formMessageDOM.classList.remove('show');
 }
 
-function submitFormInfo(e) {
+function submitFormInfo(e) {    //paspaudus mygtuka, forma viska is karto issiuncia i serveri
     e.preventDefault();
 
     const minimumPasswordLength = 8;
@@ -50,10 +50,10 @@ function submitFormInfo(e) {
     }
 
     closeMessage();
-    ajax({
-        method: 'POST', // POST - issiusti kazka naujo. Dar yra: GET, PUT, DELETE
+    ajax({              // informacija perduodama is narsykles i serveri
+        method: 'POST', // POST - issiusti kazka naujo => naujas irasas. Dar yra: GET, PUT, DELETE
         header: {},
-        endpoint: 'api/users',   // nuoroda, kur issiusti
+        endpoint: 'api/users',   // nuoroda, kur issiusti informacija
         data: { username, email, password: pass }
     }, responseAction);
 }
