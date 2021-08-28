@@ -63,7 +63,7 @@ function submitFormInfo(e) {
 
     closeMessage();
     ajax({
-        method: 'POST',
+        method: 'PUT',
         headers: {},
         endpoint: 'api/services',
         data: { serviceName, urlSlug, shortDesc, fullDesc, price, isActive }
