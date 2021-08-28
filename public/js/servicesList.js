@@ -7,7 +7,7 @@ for (const item of itemsDOM) {
         ajax({
             method: 'DELETE',
             headers: {},
-            endpoint: 'api/services?urlSlug=' + item.id,
+            endpoint: 'api/services?urlSlug=' + item.id,  // kuria palslauga norime istrinti..TIKSLIAI
         }, responseAction);
     })
 }
